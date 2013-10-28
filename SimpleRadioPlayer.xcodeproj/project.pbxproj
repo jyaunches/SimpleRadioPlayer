@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2753FA40181ED7F500DFBF12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2753FA3F181ED7F500DFBF12 /* Foundation.framework */; };
+		2753FA42181ED7F500DFBF12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2753FA41181ED7F500DFBF12 /* CoreGraphics.framework */; };
+		2753FA44181ED7F500DFBF12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2753FA43181ED7F500DFBF12 /* UIKit.framework */; };
+		2753FA4A181ED7F500DFBF12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2753FA48181ED7F500DFBF12 /* InfoPlist.strings */; };
+		2753FA4C181ED7F500DFBF12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753FA4B181ED7F500DFBF12 /* main.m */; };
+		2753FA50181ED7F500DFBF12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753FA4F181ED7F500DFBF12 /* AppDelegate.m */; };
+		2753FA53181ED7F500DFBF12 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2753FA51181ED7F500DFBF12 /* Main_iPhone.storyboard */; };
+		2753FA56181ED7F500DFBF12 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2753FA54181ED7F500DFBF12 /* Main_iPad.storyboard */; };
+		2753FA59181ED7F500DFBF12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753FA58181ED7F500DFBF12 /* ViewController.m */; };
+		2753FA5B181ED7F500DFBF12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2753FA5A181ED7F500DFBF12 /* Images.xcassets */; };
+		2753FA62181ED7F500DFBF12 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2753FA61181ED7F500DFBF12 /* XCTest.framework */; };
+		2753FA63181ED7F500DFBF12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2753FA3F181ED7F500DFBF12 /* Foundation.framework */; };
+		2753FA64181ED7F500DFBF12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2753FA43181ED7F500DFBF12 /* UIKit.framework */; };
+		2753FA6C181ED7F500DFBF12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2753FA6A181ED7F500DFBF12 /* InfoPlist.strings */; };
+		2753FA6E181ED7F500DFBF12 /* SimpleRadioPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753FA6D181ED7F500DFBF12 /* SimpleRadioPlayerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2753FA65181ED7F500DFBF12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2753FA34181ED7F500DFBF12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2753FA3B181ED7F500DFBF12;
+			remoteInfo = SimpleRadioPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2753FA3C181ED7F500DFBF12 /* SimpleRadioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleRadioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2753FA3F181ED7F500DFBF12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2753FA41181ED7F500DFBF12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2753FA43181ED7F500DFBF12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2753FA47181ED7F500DFBF12 /* SimpleRadioPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleRadioPlayer-Info.plist"; sourceTree = "<group>"; };
+		2753FA49181ED7F500DFBF12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2753FA4B181ED7F500DFBF12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2753FA4D181ED7F500DFBF12 /* SimpleRadioPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleRadioPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		2753FA4E181ED7F500DFBF12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2753FA4F181ED7F500DFBF12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2753FA52181ED7F500DFBF12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		2753FA55181ED7F500DFBF12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		2753FA57181ED7F500DFBF12 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2753FA58181ED7F500DFBF12 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2753FA5A181ED7F500DFBF12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2753FA60181ED7F500DFBF12 /* SimpleRadioPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleRadioPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2753FA61181ED7F500DFBF12 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2753FA69181ED7F500DFBF12 /* SimpleRadioPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleRadioPlayerTests-Info.plist"; sourceTree = "<group>"; };
+		2753FA6B181ED7F500DFBF12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2753FA6D181ED7F500DFBF12 /* SimpleRadioPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleRadioPlayerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2753FA39181ED7F500DFBF12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2753FA42181ED7F500DFBF12 /* CoreGraphics.framework in Frameworks */,
+				2753FA44181ED7F500DFBF12 /* UIKit.framework in Frameworks */,
+				2753FA40181ED7F500DFBF12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2753FA5D181ED7F500DFBF12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2753FA62181ED7F500DFBF12 /* XCTest.framework in Frameworks */,
+				2753FA64181ED7F500DFBF12 /* UIKit.framework in Frameworks */,
+				2753FA63181ED7F500DFBF12 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2753FA33181ED7F500DFBF12 = {
+			isa = PBXGroup;
+			children = (
+				2753FA45181ED7F500DFBF12 /* SimpleRadioPlayer */,
+				2753FA67181ED7F500DFBF12 /* SimpleRadioPlayerTests */,
+				2753FA3E181ED7F500DFBF12 /* Frameworks */,
+				2753FA3D181ED7F500DFBF12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2753FA3D181ED7F500DFBF12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2753FA3C181ED7F500DFBF12 /* SimpleRadioPlayer.app */,
+				2753FA60181ED7F500DFBF12 /* SimpleRadioPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2753FA3E181ED7F500DFBF12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2753FA3F181ED7F500DFBF12 /* Foundation.framework */,
+				2753FA41181ED7F500DFBF12 /* CoreGraphics.framework */,
+				2753FA43181ED7F500DFBF12 /* UIKit.framework */,
+				2753FA61181ED7F500DFBF12 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2753FA45181ED7F500DFBF12 /* SimpleRadioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				2753FA4E181ED7F500DFBF12 /* AppDelegate.h */,
+				2753FA4F181ED7F500DFBF12 /* AppDelegate.m */,
+				2753FA51181ED7F500DFBF12 /* Main_iPhone.storyboard */,
+				2753FA54181ED7F500DFBF12 /* Main_iPad.storyboard */,
+				2753FA57181ED7F500DFBF12 /* ViewController.h */,
+				2753FA58181ED7F500DFBF12 /* ViewController.m */,
+				2753FA5A181ED7F500DFBF12 /* Images.xcassets */,
+				2753FA46181ED7F500DFBF12 /* Supporting Files */,
+			);
+			path = SimpleRadioPlayer;
+			sourceTree = "<group>";
+		};
+		2753FA46181ED7F500DFBF12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2753FA47181ED7F500DFBF12 /* SimpleRadioPlayer-Info.plist */,
+				2753FA48181ED7F500DFBF12 /* InfoPlist.strings */,
+				2753FA4B181ED7F500DFBF12 /* main.m */,
+				2753FA4D181ED7F500DFBF12 /* SimpleRadioPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2753FA67181ED7F500DFBF12 /* SimpleRadioPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2753FA6D181ED7F500DFBF12 /* SimpleRadioPlayerTests.m */,
+				2753FA68181ED7F500DFBF12 /* Supporting Files */,
+			);
+			path = SimpleRadioPlayerTests;
+			sourceTree = "<group>";
+		};
+		2753FA68181ED7F500DFBF12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2753FA69181ED7F500DFBF12 /* SimpleRadioPlayerTests-Info.plist */,
+				2753FA6A181ED7F500DFBF12 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2753FA3B181ED7F500DFBF12 /* SimpleRadioPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2753FA71181ED7F500DFBF12 /* Build configuration list for PBXNativeTarget "SimpleRadioPlayer" */;
+			buildPhases = (
+				2753FA38181ED7F500DFBF12 /* Sources */,
+				2753FA39181ED7F500DFBF12 /* Frameworks */,
+				2753FA3A181ED7F500DFBF12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleRadioPlayer;
+			productName = SimpleRadioPlayer;
+			productReference = 2753FA3C181ED7F500DFBF12 /* SimpleRadioPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2753FA5F181ED7F500DFBF12 /* SimpleRadioPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2753FA74181ED7F500DFBF12 /* Build configuration list for PBXNativeTarget "SimpleRadioPlayerTests" */;
+			buildPhases = (
+				2753FA5C181ED7F500DFBF12 /* Sources */,
+				2753FA5D181ED7F500DFBF12 /* Frameworks */,
+				2753FA5E181ED7F500DFBF12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2753FA66181ED7F500DFBF12 /* PBXTargetDependency */,
+			);
+			name = SimpleRadioPlayerTests;
+			productName = SimpleRadioPlayerTests;
+			productReference = 2753FA60181ED7F500DFBF12 /* SimpleRadioPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2753FA34181ED7F500DFBF12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Julietta Yaunches";
+				TargetAttributes = {
+					2753FA5F181ED7F500DFBF12 = {
+						TestTargetID = 2753FA3B181ED7F500DFBF12;
+					};
+				};
+			};
+			buildConfigurationList = 2753FA37181ED7F500DFBF12 /* Build configuration list for PBXProject "SimpleRadioPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2753FA33181ED7F500DFBF12;
+			productRefGroup = 2753FA3D181ED7F500DFBF12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2753FA3B181ED7F500DFBF12 /* SimpleRadioPlayer */,
+				2753FA5F181ED7F500DFBF12 /* SimpleRadioPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2753FA3A181ED7F500DFBF12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2753FA56181ED7F500DFBF12 /* Main_iPad.storyboard in Resources */,
+				2753FA5B181ED7F500DFBF12 /* Images.xcassets in Resources */,
+				2753FA53181ED7F500DFBF12 /* Main_iPhone.storyboard in Resources */,
+				2753FA4A181ED7F500DFBF12 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2753FA5E181ED7F500DFBF12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2753FA6C181ED7F500DFBF12 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2753FA38181ED7F500DFBF12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2753FA59181ED7F500DFBF12 /* ViewController.m in Sources */,
+				2753FA50181ED7F500DFBF12 /* AppDelegate.m in Sources */,
+				2753FA4C181ED7F500DFBF12 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2753FA5C181ED7F500DFBF12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2753FA6E181ED7F500DFBF12 /* SimpleRadioPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2753FA66181ED7F500DFBF12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2753FA3B181ED7F500DFBF12 /* SimpleRadioPlayer */;
+			targetProxy = 2753FA65181ED7F500DFBF12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2753FA48181ED7F500DFBF12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2753FA49181ED7F500DFBF12 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2753FA51181ED7F500DFBF12 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2753FA52181ED7F500DFBF12 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		2753FA54181ED7F500DFBF12 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2753FA55181ED7F500DFBF12 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		2753FA6A181ED7F500DFBF12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2753FA6B181ED7F500DFBF12 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2753FA6F181ED7F500DFBF12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2753FA70181ED7F500DFBF12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2753FA72181ED7F500DFBF12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleRadioPlayer/SimpleRadioPlayer-Prefix.pch";
+				INFOPLIST_FILE = "SimpleRadioPlayer/SimpleRadioPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2753FA73181ED7F500DFBF12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleRadioPlayer/SimpleRadioPlayer-Prefix.pch";
+				INFOPLIST_FILE = "SimpleRadioPlayer/SimpleRadioPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2753FA75181ED7F500DFBF12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleRadioPlayer.app/SimpleRadioPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleRadioPlayer/SimpleRadioPlayer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SimpleRadioPlayerTests/SimpleRadioPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2753FA76181ED7F500DFBF12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleRadioPlayer.app/SimpleRadioPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleRadioPlayer/SimpleRadioPlayer-Prefix.pch";
+				INFOPLIST_FILE = "SimpleRadioPlayerTests/SimpleRadioPlayerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2753FA37181ED7F500DFBF12 /* Build configuration list for PBXProject "SimpleRadioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2753FA6F181ED7F500DFBF12 /* Debug */,
+				2753FA70181ED7F500DFBF12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2753FA71181ED7F500DFBF12 /* Build configuration list for PBXNativeTarget "SimpleRadioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2753FA72181ED7F500DFBF12 /* Debug */,
+				2753FA73181ED7F500DFBF12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2753FA74181ED7F500DFBF12 /* Build configuration list for PBXNativeTarget "SimpleRadioPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2753FA75181ED7F500DFBF12 /* Debug */,
+				2753FA76181ED7F500DFBF12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2753FA34181ED7F500DFBF12 /* Project object */;
+}
