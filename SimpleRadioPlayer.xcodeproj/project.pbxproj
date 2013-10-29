@@ -26,6 +26,7 @@
 		2753FA7A181ED83700DFBF12 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2753FA79181ED83700DFBF12 /* CoreMedia.framework */; };
 		2753FA7F182049EF00DFBF12 /* RadioControlButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753FA7E182049EF00DFBF12 /* RadioControlButton.m */; };
 		2753FA8318204BA000DFBF12 /* KdwbPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753FA8018204BA000DFBF12 /* KdwbPlayer.m */; };
+		2753FA89182059DC00DFBF12 /* AVPlayerItem+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753FA88182059DC00DFBF12 /* AVPlayerItem+Create.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		2753FA8018204BA000DFBF12 /* KdwbPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KdwbPlayer.m; sourceTree = "<group>"; };
 		2753FA8118204BA000DFBF12 /* KdwbPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KdwbPlayer.h; sourceTree = "<group>"; };
 		2753FA8218204BA000DFBF12 /* PlayerStatusDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerStatusDelegate.h; sourceTree = "<group>"; };
+		2753FA87182059DC00DFBF12 /* AVPlayerItem+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVPlayerItem+Create.h"; sourceTree = "<group>"; };
+		2753FA88182059DC00DFBF12 /* AVPlayerItem+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVPlayerItem+Create.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 		2753FA33181ED7F500DFBF12 = {
 			isa = PBXGroup;
 			children = (
+				2753FA87182059DC00DFBF12 /* AVPlayerItem+Create.h */,
+				2753FA88182059DC00DFBF12 /* AVPlayerItem+Create.m */,
 				2753FA45181ED7F500DFBF12 /* SimpleRadioPlayer */,
 				2753FA67181ED7F500DFBF12 /* SimpleRadioPlayerTests */,
 				2753FA3E181ED7F500DFBF12 /* Frameworks */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2753FA89182059DC00DFBF12 /* AVPlayerItem+Create.m in Sources */,
 				2753FA59181ED7F500DFBF12 /* ViewController.m in Sources */,
 				2753FA8318204BA000DFBF12 /* KdwbPlayer.m in Sources */,
 				2753FA50181ED7F500DFBF12 /* AppDelegate.m in Sources */,

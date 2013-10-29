@@ -4,6 +4,7 @@
 //
 #import "KdwbPlayer.h"
 #import "PlayerStatusDelegate.h"
+#import "AVPlayerItem+Create.h"
 
 NSString *kStatusKey = @"status";
 static void *ItemStatusContext = &ItemStatusContext;
@@ -22,11 +23,21 @@ static void *ItemStatusContext = &ItemStatusContext;
     return kdwbPlayer;
 }
 
-- (AVPlayerItem *)initializePlayerItem {
-    NSURL *newMovieURL = [NSURL URLWithString:@"http://ec2-23-20-195-55.compute-1.amazonaws.com:80/kdwb-fm/playlist.m3u8"];
-    AVURLAsset *asset = [AVURLAsset URLAssetWithURL:newMovieURL options:nil];
-    AVPlayerItem *playerItem = [AVPlayerItem playerItemWithAsset:asset];
+- (void)play {
+    AVPlayerItem *item = [self initializePlayerItem];
+    if (self.player == nil) {
+        self.player = [AVPlayer playerWithPlayerItem:item];
+    } else {
+        [self.player replaceCurrentItemWithPlayerItem:item];
+    }
+}
 
+- (void)pause {
+    [self.player pause];
+}
+
+- (AVPlayerItem *)initializePlayerItem {
+    AVPlayerItem *playerItem = [AVPlayerItem initForKdwb];
     [playerItem addObserver:self
                  forKeyPath:kStatusKey
                     options:NSKeyValueObservingOptionInitial | NSKeyValueObservingOptionNew
@@ -52,16 +63,4 @@ static void *ItemStatusContext = &ItemStatusContext;
     return [self.player rate] != 0.0;
 }
 
-- (void)pause {
-    [self.player pause];
-}
-
-- (void)play {
-    AVPlayerItem *item = [self initializePlayerItem];
-    if(self.player == nil){
-        self.player = [AVPlayer playerWithPlayerItem:item];
-    }else{
-        [self.player replaceCurrentItemWithPlayerItem:item];
-    }
-}
 @end
