@@ -24,6 +24,8 @@
 		2753FA6E181ED7F500DFBF12 /* SimpleRadioPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753FA6D181ED7F500DFBF12 /* SimpleRadioPlayerTests.m */; };
 		2753FA78181ED82D00DFBF12 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2753FA77181ED82D00DFBF12 /* AVFoundation.framework */; };
 		2753FA7A181ED83700DFBF12 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2753FA79181ED83700DFBF12 /* CoreMedia.framework */; };
+		2753FA7F182049EF00DFBF12 /* RadioControlButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753FA7E182049EF00DFBF12 /* RadioControlButton.m */; };
+		2753FA8318204BA000DFBF12 /* KdwbPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753FA8018204BA000DFBF12 /* KdwbPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,11 @@
 		2753FA6D181ED7F500DFBF12 /* SimpleRadioPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleRadioPlayerTests.m; sourceTree = "<group>"; };
 		2753FA77181ED82D00DFBF12 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		2753FA79181ED83700DFBF12 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2753FA7D182049EF00DFBF12 /* RadioControlButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioControlButton.h; sourceTree = "<group>"; };
+		2753FA7E182049EF00DFBF12 /* RadioControlButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioControlButton.m; sourceTree = "<group>"; };
+		2753FA8018204BA000DFBF12 /* KdwbPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KdwbPlayer.m; sourceTree = "<group>"; };
+		2753FA8118204BA000DFBF12 /* KdwbPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KdwbPlayer.h; sourceTree = "<group>"; };
+		2753FA8218204BA000DFBF12 /* PlayerStatusDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerStatusDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +129,9 @@
 		2753FA45181ED7F500DFBF12 /* SimpleRadioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				2753FA8018204BA000DFBF12 /* KdwbPlayer.m */,
+				2753FA8118204BA000DFBF12 /* KdwbPlayer.h */,
+				2753FA8218204BA000DFBF12 /* PlayerStatusDelegate.h */,
 				2753FA4E181ED7F500DFBF12 /* AppDelegate.h */,
 				2753FA4F181ED7F500DFBF12 /* AppDelegate.m */,
 				2753FA51181ED7F500DFBF12 /* Main_iPhone.storyboard */,
@@ -130,6 +140,8 @@
 				2753FA58181ED7F500DFBF12 /* ViewController.m */,
 				2753FA5A181ED7F500DFBF12 /* Images.xcassets */,
 				2753FA46181ED7F500DFBF12 /* Supporting Files */,
+				2753FA7D182049EF00DFBF12 /* RadioControlButton.h */,
+				2753FA7E182049EF00DFBF12 /* RadioControlButton.m */,
 			);
 			path = SimpleRadioPlayer;
 			sourceTree = "<group>";
@@ -262,8 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2753FA59181ED7F500DFBF12 /* ViewController.m in Sources */,
+				2753FA8318204BA000DFBF12 /* KdwbPlayer.m in Sources */,
 				2753FA50181ED7F500DFBF12 /* AppDelegate.m in Sources */,
 				2753FA4C181ED7F500DFBF12 /* main.m in Sources */,
+				2753FA7F182049EF00DFBF12 /* RadioControlButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

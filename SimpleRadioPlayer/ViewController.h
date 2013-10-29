@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PlayerStatusDelegate.h"
 
 @class AVPlayer;
+@class KdwbPlayer;
+@class RadioControlButton;
 
-@interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIButton *playButton;
-
-
+@interface ViewController : UIViewController <PlayerStatusDelegate>
+@property (weak, nonatomic) IBOutlet RadioControlButton *playButton;
 @end
