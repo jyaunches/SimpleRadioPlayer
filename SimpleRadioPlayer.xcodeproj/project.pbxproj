@@ -22,6 +22,8 @@
 		2753FA64181ED7F500DFBF12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2753FA43181ED7F500DFBF12 /* UIKit.framework */; };
 		2753FA6C181ED7F500DFBF12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2753FA6A181ED7F500DFBF12 /* InfoPlist.strings */; };
 		2753FA6E181ED7F500DFBF12 /* SimpleRadioPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753FA6D181ED7F500DFBF12 /* SimpleRadioPlayerTests.m */; };
+		2753FA78181ED82D00DFBF12 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2753FA77181ED82D00DFBF12 /* AVFoundation.framework */; };
+		2753FA7A181ED83700DFBF12 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2753FA79181ED83700DFBF12 /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		2753FA69181ED7F500DFBF12 /* SimpleRadioPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleRadioPlayerTests-Info.plist"; sourceTree = "<group>"; };
 		2753FA6B181ED7F500DFBF12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2753FA6D181ED7F500DFBF12 /* SimpleRadioPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleRadioPlayerTests.m; sourceTree = "<group>"; };
+		2753FA77181ED82D00DFBF12 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2753FA79181ED83700DFBF12 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2753FA7A181ED83700DFBF12 /* CoreMedia.framework in Frameworks */,
+				2753FA78181ED82D00DFBF12 /* AVFoundation.framework in Frameworks */,
 				2753FA42181ED7F500DFBF12 /* CoreGraphics.framework in Frameworks */,
 				2753FA44181ED7F500DFBF12 /* UIKit.framework in Frameworks */,
 				2753FA40181ED7F500DFBF12 /* Foundation.framework in Frameworks */,
@@ -103,6 +109,8 @@
 		2753FA3E181ED7F500DFBF12 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2753FA79181ED83700DFBF12 /* CoreMedia.framework */,
+				2753FA77181ED82D00DFBF12 /* AVFoundation.framework */,
 				2753FA3F181ED7F500DFBF12 /* Foundation.framework */,
 				2753FA41181ED7F500DFBF12 /* CoreGraphics.framework */,
 				2753FA43181ED7F500DFBF12 /* UIKit.framework */,
@@ -203,7 +211,7 @@
 				ORGANIZATIONNAME = "Julietta Yaunches";
 				TargetAttributes = {
 					2753FA5F181ED7F500DFBF12 = {
-						TestTargetID = 2753FA3B181ED7F500DFBF12;
+						TestTargetID = 2753FA3B181ED7F500DFBF12 /* SimpleRadioPlayer */;
 					};
 				};
 			};
@@ -474,6 +482,7 @@
 				2753FA73181ED7F500DFBF12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2753FA74181ED7F500DFBF12 /* Build configuration list for PBXNativeTarget "SimpleRadioPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +491,7 @@
 				2753FA76181ED7F500DFBF12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

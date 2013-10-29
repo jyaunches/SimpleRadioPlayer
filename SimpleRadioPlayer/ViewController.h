@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class AVPlayer;
+
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *playButton;
+
 
 @end
