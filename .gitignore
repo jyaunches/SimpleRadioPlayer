@@ -1,0 +1,10 @@
+# Ignore Mac files
+
+.DS_Store
+
+# Ignore appcode files
+/.idea/
+/.idea/vcs.xml
+.idea
+.idea/
+.idea/workspace.xml
