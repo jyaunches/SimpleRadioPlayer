@@ -9,6 +9,7 @@
 #import "RadioDisplayController.h"
 #import "KdwbPlayer.h"
 #import "RadioControlButton.h"
+#import "Reachability.h"
 
 @interface RadioDisplayController ()
 @property(nonatomic, strong) KdwbPlayer *kdwbPlayer;
@@ -24,6 +25,19 @@
 }
 
 - (IBAction)playClicked:(id)sender {
+    if([Reachability internetNotReachable]){
+        [[[UIAlertView alloc]
+                initWithTitle:@"Can't reach the internet."
+                      message:@"Check you are connected!"
+                     delegate:nil
+            cancelButtonTitle:@"OK"
+            otherButtonTitles:nil] show];
+    }else{
+        [self playOrPause];
+    }
+}
+
+- (void)playOrPause {
     if (self.kdwbPlayer.isPlaying){
         [self.kdwbPlayer pause];
         [self.playButton moveToPausedState];
