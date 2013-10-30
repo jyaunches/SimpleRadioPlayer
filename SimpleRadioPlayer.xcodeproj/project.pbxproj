@@ -15,7 +15,7 @@
 		2753FA50181ED7F500DFBF12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753FA4F181ED7F500DFBF12 /* AppDelegate.m */; };
 		2753FA53181ED7F500DFBF12 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2753FA51181ED7F500DFBF12 /* Main_iPhone.storyboard */; };
 		2753FA56181ED7F500DFBF12 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2753FA54181ED7F500DFBF12 /* Main_iPad.storyboard */; };
-		2753FA59181ED7F500DFBF12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753FA58181ED7F500DFBF12 /* ViewController.m */; };
+		2753FA59181ED7F500DFBF12 /* RadioDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753FA58181ED7F500DFBF12 /* RadioDisplayController.m */; };
 		2753FA5B181ED7F500DFBF12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2753FA5A181ED7F500DFBF12 /* Images.xcassets */; };
 		2753FA62181ED7F500DFBF12 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2753FA61181ED7F500DFBF12 /* XCTest.framework */; };
 		2753FA63181ED7F500DFBF12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2753FA3F181ED7F500DFBF12 /* Foundation.framework */; };
@@ -27,6 +27,10 @@
 		2753FA7F182049EF00DFBF12 /* RadioControlButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753FA7E182049EF00DFBF12 /* RadioControlButton.m */; };
 		2753FA8318204BA000DFBF12 /* KdwbPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753FA8018204BA000DFBF12 /* KdwbPlayer.m */; };
 		2753FA89182059DC00DFBF12 /* AVPlayerItem+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753FA88182059DC00DFBF12 /* AVPlayerItem+Create.m */; };
+		2753FAA118215A2300DFBF12 /* play-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2753FA9D18215A2300DFBF12 /* play-icon.png */; };
+		2753FAA318215A2300DFBF12 /* pause-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2753FA9F18215A2300DFBF12 /* pause-icon.png */; };
+		2753FAA718215D2700DFBF12 /* play-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2753FAA518215D2600DFBF12 /* play-icon@2x.png */; };
+		2753FAA818215D2700DFBF12 /* pause-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2753FAA618215D2700DFBF12 /* pause-icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +56,8 @@
 		2753FA4F181ED7F500DFBF12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2753FA52181ED7F500DFBF12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		2753FA55181ED7F500DFBF12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		2753FA57181ED7F500DFBF12 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2753FA58181ED7F500DFBF12 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2753FA57181ED7F500DFBF12 /* RadioDisplayController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadioDisplayController.h; sourceTree = "<group>"; };
+		2753FA58181ED7F500DFBF12 /* RadioDisplayController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RadioDisplayController.m; sourceTree = "<group>"; };
 		2753FA5A181ED7F500DFBF12 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2753FA60181ED7F500DFBF12 /* SimpleRadioPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleRadioPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2753FA61181ED7F500DFBF12 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -69,6 +73,10 @@
 		2753FA8218204BA000DFBF12 /* PlayerStatusDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerStatusDelegate.h; sourceTree = "<group>"; };
 		2753FA87182059DC00DFBF12 /* AVPlayerItem+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVPlayerItem+Create.h"; sourceTree = "<group>"; };
 		2753FA88182059DC00DFBF12 /* AVPlayerItem+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVPlayerItem+Create.m"; sourceTree = "<group>"; };
+		2753FA9D18215A2300DFBF12 /* play-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-icon.png"; sourceTree = "<group>"; };
+		2753FA9F18215A2300DFBF12 /* pause-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause-icon.png"; sourceTree = "<group>"; };
+		2753FAA518215D2600DFBF12 /* play-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-icon@2x.png"; sourceTree = "<group>"; };
+		2753FAA618215D2700DFBF12 /* pause-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause-icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,8 +149,8 @@
 				2753FA4F181ED7F500DFBF12 /* AppDelegate.m */,
 				2753FA51181ED7F500DFBF12 /* Main_iPhone.storyboard */,
 				2753FA54181ED7F500DFBF12 /* Main_iPad.storyboard */,
-				2753FA57181ED7F500DFBF12 /* ViewController.h */,
-				2753FA58181ED7F500DFBF12 /* ViewController.m */,
+				2753FA57181ED7F500DFBF12 /* RadioDisplayController.h */,
+				2753FA58181ED7F500DFBF12 /* RadioDisplayController.m */,
 				2753FA5A181ED7F500DFBF12 /* Images.xcassets */,
 				2753FA46181ED7F500DFBF12 /* Supporting Files */,
 				2753FA7D182049EF00DFBF12 /* RadioControlButton.h */,
@@ -154,6 +162,10 @@
 		2753FA46181ED7F500DFBF12 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2753FAA518215D2600DFBF12 /* play-icon@2x.png */,
+				2753FAA618215D2700DFBF12 /* pause-icon@2x.png */,
+				2753FA9D18215A2300DFBF12 /* play-icon.png */,
+				2753FA9F18215A2300DFBF12 /* pause-icon.png */,
 				2753FA47181ED7F500DFBF12 /* SimpleRadioPlayer-Info.plist */,
 				2753FA48181ED7F500DFBF12 /* InfoPlist.strings */,
 				2753FA4B181ED7F500DFBF12 /* main.m */,
@@ -256,8 +268,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2753FAA718215D2700DFBF12 /* play-icon@2x.png in Resources */,
 				2753FA56181ED7F500DFBF12 /* Main_iPad.storyboard in Resources */,
+				2753FAA818215D2700DFBF12 /* pause-icon@2x.png in Resources */,
+				2753FAA318215A2300DFBF12 /* pause-icon.png in Resources */,
 				2753FA5B181ED7F500DFBF12 /* Images.xcassets in Resources */,
+				2753FAA118215A2300DFBF12 /* play-icon.png in Resources */,
 				2753FA53181ED7F500DFBF12 /* Main_iPhone.storyboard in Resources */,
 				2753FA4A181ED7F500DFBF12 /* InfoPlist.strings in Resources */,
 			);
@@ -279,7 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2753FA89182059DC00DFBF12 /* AVPlayerItem+Create.m in Sources */,
-				2753FA59181ED7F500DFBF12 /* ViewController.m in Sources */,
+				2753FA59181ED7F500DFBF12 /* RadioDisplayController.m in Sources */,
 				2753FA8318204BA000DFBF12 /* KdwbPlayer.m in Sources */,
 				2753FA50181ED7F500DFBF12 /* AppDelegate.m in Sources */,
 				2753FA4C181ED7F500DFBF12 /* main.m in Sources */,

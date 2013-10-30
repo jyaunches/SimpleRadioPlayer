@@ -13,6 +13,6 @@
 @class KdwbPlayer;
 @class RadioControlButton;
 
-@interface ViewController : UIViewController <PlayerStatusDelegate>
+@interface RadioDisplayController : UIViewController <PlayerStatusDelegate>
 @property (weak, nonatomic) IBOutlet RadioControlButton *playButton;
 @end

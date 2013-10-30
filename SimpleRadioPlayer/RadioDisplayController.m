@@ -6,15 +6,15 @@
 //  Copyright (c) 2013 Julietta Yaunches. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "RadioDisplayController.h"
 #import "KdwbPlayer.h"
 #import "RadioControlButton.h"
 
-@interface ViewController ()
+@interface RadioDisplayController ()
 @property(nonatomic, strong) KdwbPlayer *kdwbPlayer;
 @end
 
-@implementation ViewController
+@implementation RadioDisplayController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

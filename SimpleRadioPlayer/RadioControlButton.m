@@ -8,20 +8,34 @@
 
 #import "RadioControlButton.h"
 
+@interface RadioControlButton ()
+@property(nonatomic, strong) UIImage *pauseImage;
+@property(nonatomic, strong) UIImage *playImage;
+@end
+
 @implementation RadioControlButton
+
+- (id)initWithCoder:(NSCoder *)aDecoder {
+    self = [super initWithCoder:aDecoder];
+    if (self) {
+        self.pauseImage = [UIImage imageNamed:@"pause-icon.png"];
+        self.playImage = [UIImage imageNamed:@"play-icon.png"];
+    }
+    return self;
+}
 
 - (void)moveToPausedState {
     [self setEnabled:YES];
-    [self setTitle:@"Play" forState:UIControlStateNormal];
+    [self setImage:self.playImage forState:UIControlStateNormal];
 }
 
 - (void)moveToPlayingState {
     [self setEnabled:YES];
-    [self setTitle:@"Pause" forState:UIControlStateNormal];
+    [self setImage:self.pauseImage forState:UIControlStateNormal];
 }
 
 - (void)moveToGettingReadyToPlayState {
     [self setEnabled:NO];
-    [self setTitle:@"Pause" forState:UIControlStateNormal];
+    [self setImage:self.pauseImage forState:UIControlStateNormal];
 }
 @end
